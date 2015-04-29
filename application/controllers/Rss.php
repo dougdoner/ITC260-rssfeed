@@ -7,6 +7,7 @@ class Rss extends CI_Controller {
 {
     parent::__construct();
     $this->load->model('rss_model');
+    $this->config->set_item('banner-title', 'RSS Feed');
 }
 
 	public function index()

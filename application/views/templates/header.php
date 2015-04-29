@@ -2,6 +2,6 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Test</title>
+        <title><?= $this->config->item('banner-title'); ?></title>
     </head>
     <body>

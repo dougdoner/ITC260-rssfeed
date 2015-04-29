@@ -1,3 +1,4 @@
+<?php // views/rss/index.php view template file ?>
 <h1>It works!</h1>
 
 <?php
